@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { ContactsList } from './ContactsList/ContactsList';
 import { Filter } from './Filter/Filter';
 import toast, { Toaster } from 'react-hot-toast';
-import { Sec } from 'App.styled';
+import { Sec } from 'components/App.styled';
 import PropTypes from 'prop-types';
 
 export class App extends Component {
