@@ -4,7 +4,7 @@ import { Input, Text, FilterContainer } from './Filter.styled';
 export function Filter({ handleChange, value }) {
   return (
     <FilterContainer>
-      <Text>Find contacts</Text>
+      <Text>Find contacts by name</Text>
       <Input type="text" value={value} onChange={handleChange} name="filter" />
     </FilterContainer>
   );
